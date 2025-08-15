@@ -10,7 +10,7 @@ function TaskForm() {
             <button className='tag'>DEV</button>
             <button className='tag'>QA</button>
             <button className='tag'>Product Owner</button>
-        </div>
+   
         <select className='task-status'>
             <option value="Ready For Development">Ready For Development</option>
              <option value="In Progress">In Progress</option>
@@ -18,6 +18,7 @@ function TaskForm() {
                <option value="Closed">Closed</option>
         </select>
         <button  type = 'submit' className='task-submit'>+ Add</button>
+             </div>
     </form>
    </header>
   )
