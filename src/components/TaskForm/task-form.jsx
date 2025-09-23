@@ -9,11 +9,11 @@ function TaskForm() {
         <input type="text" className='task-input' placeholder='Enter task details' />
         <div className='task_form_bottom'>
         <div>
-           <Tag/>
-            <Tag/>
-             <Tag/>
-            <button className='tag'>QA</button>
-            <button className='tag'>Product Owner</button>
+           <Tag  tegName = 'Dev'/>
+            <Tag tegName = 'QA'/>
+             <Tag tegName = 'Product Owner'/>
+            {/* <button className='tag'>QA</button>
+            <button className='tag'>Product Owner</button> */}
    </div>
    <div>
         <select className='task-status'>

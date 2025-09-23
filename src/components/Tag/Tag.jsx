@@ -1,10 +1,12 @@
 import React from 'react'
 import  './Tag.css'
 
-function Tag() {
+function Tag(props) {
+  const {tegName}  = props
   return (
+    
     <>
-          <button className='tag'>DEV</button>
+          <button className='tag'>{tegName}</button>
     </>
   )
 }

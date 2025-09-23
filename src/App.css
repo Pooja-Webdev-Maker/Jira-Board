@@ -6,9 +6,3 @@
   display: flex;
   justify-content: space-evenly;
 }
-.task_coloumn{
-  background-color: lightblue;
-  width: 30%;
-  padding: 15px;
-  margin: 20px;
-}
